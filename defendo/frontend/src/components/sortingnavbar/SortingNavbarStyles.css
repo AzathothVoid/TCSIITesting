@@ -1,0 +1,54 @@
+
+.sorting-navbar .right-nav .sort .dropdown1-btn{
+  color: grey !important;
+  font-size: small;
+  letter-spacing: .1em;
+}
+.right-nav .sort .dropmenu1 {
+    width: 260px;
+    display: none;
+    position: absolute;
+    top: 46px;
+    border-top:none !important;
+    left: -16px !important;
+    background-color: #e9e9e9;
+    padding: 4px;
+    z-index: 1;
+    transition: 4s ;
+  }
+  .right-nav .sort .dropmenu1 ul{
+    display: block;
+  }
+  
+  .right-nav .sort .dropdown1:hover .dropmenu1 {
+    display: block;
+  }
+  
+  .right-nav .sort .dropmenu1 li{
+    font-size:x-small !important;
+    font-weight: 100 !important;
+    background-color: #e9e9e9;
+    margin: 0;
+  }
+  
+  .right-nav .sort .dropmenu1 li:hover{
+    color: #919191 !important;
+    transition: 4s ;
+  }
+/*****************media quiery*************************/
+@media (max-width: 400.98px) {
+    .sorting-navbar .left-nav{
+        padding: 0 18px !important;
+    }
+    .sorting-navbar .right-nav .sort{
+        display: none !important;
+    }
+
+    .sorting-navbar .filter .price-range{
+        display: none !important;
+    }
+    .sorting-navbar .filter .offcanvas-body ul{
+        display: block !important;
+    }
+}
+

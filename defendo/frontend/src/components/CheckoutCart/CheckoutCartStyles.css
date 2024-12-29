@@ -1,0 +1,18 @@
+.checkout-cart-wrapper .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkout-cart-wrapper .title h1 {
+    font-weight: 800;
+}
+
+.checkout-cart-wrapper .description p {
+    color: gray;
+}
+.checkout-cart-wrapper .cart-btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

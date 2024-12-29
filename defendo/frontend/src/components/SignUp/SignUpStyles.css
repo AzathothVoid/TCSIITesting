@@ -1,0 +1,83 @@
+.signup-wrapper {
+    margin: 6%;
+}
+
+.signup-wrapper .heading {
+    font-size: 20px;
+    letter-spacing: .2em;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+}
+.signup-wrapper input {
+    width: 350px;
+    display: flex;
+    border-radius: 2px;
+    align-items: center;
+    margin: 0 330px;
+}
+
+.signup-wrapper input::placeholder {
+    font-size: 12px;
+    padding-left: 10px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+}
+
+.signup-wrapper p {
+    font-size: 12px;
+    font-weight: inherit;
+    box-sizing: border-box !important;
+    font-style: normal;
+    font-family: Montserrat, sans-serif;
+    color: #303030;
+}
+
+.signup-wrapper p a {
+    text-decoration: none;
+}
+
+.signup-wrapper .signup-btn {
+    font-size: 12px;
+    width: 348px;
+    margin: 0 330px;
+}
+.signup-wrapper .row form .error-message{
+    color: red;
+    font-size: 12px;
+    margin: 0 360px;
+}
+.signup-wrapper .row .container .form .display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ****************************media-queries************************************/ 
+
+/* // Small devices (landscape phones, 576px and up) */
+ @media(max-width: 599.98px) {
+   
+    .signup-wrapper input{
+        width: 100% ;
+        display: flex;
+        align-items: center;
+        border-radius: 2px;
+        margin: 10px 0 !important;
+    }
+    .signup-wrapper .signup-btn{
+        font-size: 12px;
+        width: 350px !important;
+        margin: 10px 0px !important;
+    }
+    .signup-wrapper .row form .error-message{
+        color: red;
+        font-size: 12px;
+        margin: 3px 0 !important;
+    }
+    
+  } 
+ 
+  @media(max-width: 375.98px) { 
+    .signup-wrapper .signup-btn{
+        width: 100% !important;
+    }
+  }

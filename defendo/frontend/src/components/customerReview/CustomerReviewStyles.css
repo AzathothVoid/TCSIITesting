@@ -1,0 +1,74 @@
+.customer-review-wrapper .customer-says{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.customer-review-wrapper .customer-says .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-color: #191817;
+    color: #ffffff;
+    vertical-align: middle;
+    padding:2px 14px;
+}
+.customer-review-wrapper .customer-says h5{
+    font-size: smaller;
+    font-weight: inherit;
+    line-height: 1.65;
+}
+.customer-review-wrapper .customer-says .right{
+    display: flex;
+    padding: 7px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    border: 1px solid black;
+    color: #000;
+    vertical-align: middle;
+    padding: 6px;
+}
+.customer-review-wrapper .customer-says .right h5{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: #000;
+    padding:2px 14px;
+}
+
+.reviews{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.w-65{
+    width: 65%;
+}
+.customer-review-wrapper .icons .star{
+    width: 10px;
+    margin: 0 2px;
+
+}
+.arrows .btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.arrows button{
+    display: flex;
+    align-items: center;
+}
+.arrows button img{
+    height: 24px;
+}
+
+/*****************media quiery*************************/
+@media (max-width: 500.98px) {
+    .customer-says {
+        display: block !important;
+    }
+
+}

@@ -1,0 +1,14 @@
+.quantity-selector-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #bdbdbd;
+    width: 120px;
+}
+.quantity-selector-wrapper button{
+    background-color:transparent;
+    color:  #5a5a5a;
+}
+.quantity-selector-wrapper .state{
+    color:  #5a5a5a;
+}

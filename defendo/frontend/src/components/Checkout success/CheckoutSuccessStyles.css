@@ -1,0 +1,32 @@
+.checkout-success-wrapper{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+}
+.checkout-success-wrapper .card{
+    width: 35%;
+    border: 0;
+}
+.checkout-success-wrapper .card .img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkout-success-wrapper .card img{
+    width: 80px;
+}
+.checkout-success-wrapper .card-body h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: rgb(0, 167, 117);
+}
+.checkout-success-wrapper .card-body p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+}

@@ -1,0 +1,90 @@
+.login-wrapper{
+    margin: 8%;
+}
+.login-wrapper .heading{
+    font-size: 20px;
+    letter-spacing: .2em;
+    font-family:  Montserrat, sans-serif;
+    font-weight: 500;
+}
+.login-wrapper input{
+    width: 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    border-radius: 2px;
+}
+.login-wrapper .row .container .form .display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-wrapper input::placeholder{
+    font-size: 12px;
+    padding-left: 10px;
+    font-family:  Montserrat, sans-serif;
+    font-weight: 500;
+}
+.login-wrapper p{
+    font-size: 12px;
+    font-weight: inherit;
+    box-sizing: border-box !important;
+    font-style: normal;
+    font-family:  Montserrat, sans-serif;
+    color: #303030;
+}
+.login-wrapper p a{
+    text-decoration: none;
+}
+.login-wrapper .login-btn{
+    font-size: 12px;
+    width: 348px;
+}
+ .login-wrapper .row form .error-message{
+    color: red;
+    font-size: 12px;
+    margin: 0;
+}
+
+
+/* ****************************media-queries************************************/ 
+/* @media (min-width: 100px) and (max-width: 398.98px) {
+    .login-wrapper .row .container .form .display{
+        display: flex !important;
+        align-items: center !important;
+        justify-content:start !important;
+    }
+    
+    .login-wrapper .form input{
+        width: 100% !important;
+        margin:14px 0 !important;
+    }
+    .login-wrapper .login-btn{
+        width: 100% !important;
+        margin:4px 0 !important;
+    }
+} */
+/* 
+  @media(max-width: 374.98px) { 
+    .login-wrapper .row .container .form .display{
+        display: flex;
+        align-items: center;
+        justify-content:start !important;
+    }
+    .login-wrapper .form input{
+        width: 100% !important;
+        margin:14px 0 !important;
+        margin-left: 10px !important;
+    }
+    .login-wrapper .login-btn{
+        margin:4px 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+    }
+  }  */
+
+  @media(max-width: 375.98px) { 
+    .login-wrapper .login-btn{
+        width: 100% !important;
+    }
+  }

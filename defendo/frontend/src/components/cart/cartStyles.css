@@ -1,0 +1,35 @@
+.cart-wrapper .card .card-body .card-title{
+    font-size: 12px;
+    letter-spacing: .2em;
+}
+.cart-wrapper .card .card-body .card-text{
+    font-size: 12px;
+    letter-spacing: .2em;
+}
+.cart-wrapper .card .card-body span{
+    font-size: 10px;
+    letter-spacing: .2em;
+}
+.cart-wrapper .total-price{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #585858;
+    color: #fff;
+}
+.cart-wrapper .card .display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-wrapper .total-price a{
+    background-color: #585858;
+    color: #fff;
+    text-decoration: none;
+}
+.cart-wrapper .total-price h5{
+    font-size: 14px;
+}
+.cart-wrapper .remove-btn{
+    background: none;
+}

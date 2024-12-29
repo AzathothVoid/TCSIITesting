@@ -1,0 +1,26 @@
+.faqs-wrapper .row p{
+    font-size: 12px !important;
+
+}
+.faqs-wrapper .acrd-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faqs-wrapper .row button{
+    font-size: 12px !important;
+
+}
+.faqs-wrapper .accordion h5{
+    font-size: 16px;
+}
+
+@media (min-width: 100px) and (max-width: 575.98px) {
+    .faqs-wrapper{
+        padding: 0 !important;
+    }
+    .faqs-wrapper .accordion{
+        width: 100% !important;
+    }
+
+}

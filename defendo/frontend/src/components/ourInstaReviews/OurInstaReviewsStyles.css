@@ -1,0 +1,57 @@
+.our-insta-reviews-wrapper h5 {
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+
+.our-insta-reviews-wrapper .row-video{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+
+}
+.our-insta-reviews-wrapper .row-video video{
+    width: 500px ;
+    height: 530px ;
+}
+.w-85{
+    width: 85%;
+}
+
+/*****************media quiery*************************/
+@media (min-width: 100px) and (max-width: 574.98px) {
+    .our-insta-reviews-wrapper .row-video video {
+        width: 540px;
+        height: 530px;
+        margin-left: 60px;
+    }
+    .our-insta-reviews-wrapper .row-imgs{
+        margin-left: 40px ;
+    }
+}
+@media (max-width: 575.98px) {
+    .our-insta-reviews-wrapper .row-imgs a img.review{
+        margin: 18px !important;
+    }
+    .our-insta-reviews-wrapper .col-md-6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        
+    }
+    .our-insta-reviews-wrapper .video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100% !important;
+    }
+    .our-insta-reviews-wrapper .col-md-6 a.end{
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+
+}

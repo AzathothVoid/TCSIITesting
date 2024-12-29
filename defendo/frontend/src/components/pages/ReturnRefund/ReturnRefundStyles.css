@@ -1,0 +1,70 @@
+.return-refund-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.return-refund-wrapper .return-heading{
+    font-size: 18px;
+    letter-spacing: .1em;
+    color:#000;
+}
+.return-refund-wrapper .row .para{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+
+}
+.return-refund-wrapper .return-form h5{
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: .1em;
+    color:#000;
+}
+.return-refund-wrapper .return-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.return-refund-wrapper .return-form label{ 
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size:16px;
+}
+.return-refund-wrapper .return-form label span{ 
+    color: #ff0000;
+    font-size: x-small;
+}
+.return-refund-wrapper .return-form input{
+    border-radius: 8px;
+    width: 500px !important;
+}
+.return-refund-wrapper .return-form input::placeholder{ 
+    color: #d3d3d3;
+}
+.return-refund-wrapper .return-form .refund-btn-search {
+    background-color: #3430fd;
+    color: #d3d3d3;
+    font-weight: 600;
+    width: 20%;
+    border-radius: 10px;
+}
+.return-refund-wrapper .situations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.return-refund-wrapper .situations h5{
+    font-weight: 800;
+    font-size:small;
+}
+.return-refund-wrapper .situations ul li{
+    font-size:small;
+}
+@media (min-width: 100px) and (max-width: 574.98px) {
+    .return-refund-wrapper{
+        padding: 0 !important;
+    }
+
+}

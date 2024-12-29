@@ -1,0 +1,93 @@
+.contact-wrapper .container{
+    margin: 0 330px;
+}
+.contact-us-wrapper h5{
+    font-size: 14px;
+}
+.heading {
+    font-size: 20px !important;
+}
+.contact-us-wrapper h5.question{
+    font-size:14px;
+    font-family: Varela, sans-serif;
+}
+
+.contact-us-wrapper p.answer{
+    font-size:14px;
+    font-family: Varela, sans-serif;
+    line-height:1.8em;
+color: #383838;
+}
+.contact-us-wrapper p.answer a{
+    color: green;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+.note{
+    font-size:14px;
+    font-family: Varela, sans-serif;
+    line-height:1.8em;
+    font-style: italic
+}
+input{
+    border: 1px solid #b4b4b4;
+}
+input.id{
+    width:45%;
+    margin: 12px 0;
+}
+input.message{
+    width: 95%;
+    margin-top: 10px 0;
+}
+textarea.message{
+    border: 1px solid #b4b4b4;
+    color: grey;
+}
+.w-60{
+    width: 60% !important;
+}
+button{
+    width: 95%;
+
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #191817;
+    letter-spacing: .1em;
+}
+
+.text-decor{
+    text-decoration: none;
+    color: #191817;
+}
+/*********************************/
+  @media (max-width: 600px){
+    .contact-us-wrapper input{
+        margin: 10px 0 !important;
+    }
+    .contact-us-wrapper input.email {
+        margin: 0 !important;
+    }
+    .contact-us-wrapper .note textarea.custom {
+        height: 100px !important;
+    }
+    .contact-wrapper .col-md-4{
+        width: 80% !important;
+    }
+   .contact-wrapper .row{
+    display: flex;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+    .contact-wrapper .container{
+        margin: 4px !important;
+    }
+    .message{
+        width: 100% !important;
+    }
+    .send-btn{
+        width: 100% !important;
+    }
+  }

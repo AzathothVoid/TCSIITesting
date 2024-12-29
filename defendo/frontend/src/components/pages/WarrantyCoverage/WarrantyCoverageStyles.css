@@ -1,0 +1,18 @@
+.warranty-coverage-page-wrapper .container .row .col-md-12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.warranty-coverage-page-wrapper .container .row .col-md-12 h5{
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+}
+@media (min-width: 100px) and (max-width: 574.98px) {
+    .warranty-coverage-page-wrapper{
+        padding: 0 !important;
+        margin: 10px 0 !important;
+    }
+
+}

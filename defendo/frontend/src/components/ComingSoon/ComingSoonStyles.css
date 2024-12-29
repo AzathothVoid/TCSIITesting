@@ -1,0 +1,19 @@
+.comingsoon-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+}
+.comingsoon-wrapper .div h2{
+    letter-spacing: .01em;
+    font-weight: 800;
+    font-size: 52px;
+}
+.comingsoon-wrapper .div p{
+    font-size: 20px;
+}
+.text-decor{
+    text-decoration: none;
+}

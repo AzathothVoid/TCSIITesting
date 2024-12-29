@@ -1,0 +1,128 @@
+.sorting-navbar {
+    border: 1px solid rgb(206, 206, 206);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sorting-navbar .left-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.sorting-navbar .left-nav .notfill a{
+    text-decoration: none ;
+    color: rgb(119, 119, 119);
+}
+.sorting-navbar .left-nav a{
+    text-decoration: none ;
+   color: rgb(119, 119, 119);
+}
+
+.sorting-navbar .right-nav .sort {
+    border-left: 1px solid rgb(206, 206, 206);
+}
+
+.right-nav .filter {
+    border-left: 1px solid rgb(206, 206, 206);
+}
+
+.right-nav ul li a {
+    font-size: 14px;
+    letter-spacing: .2em;
+    text-align: center;
+    color: rgb(119, 119, 119);
+    vertical-align: middle;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+
+}
+
+span {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    color: rgb(119, 119, 119);
+}
+
+.new-releases-wrapper .offcanvas-header {
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.filter .offcanvas-title {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: .2em;
+    vertical-align: middle;
+}
+
+.new-releases-wrapper .offcanvas-body ul li {
+    list-style-type: none;
+    margin: 8px 0;
+}
+
+.new-releases-wrapper .offcanvas-body ul li a {
+    color: #444444;
+    font-size: 10px;
+    letter-spacing: .2em;
+}
+
+.new-releases-wrapper .offcanvas-body ul li a:hover {
+    color: #000;
+    transition: 0.5s;
+}
+
+.new-releases-wrapper .offcanvas-body h5 {
+    font-size: 13px;
+    letter-spacing: .2em;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.price-range-bar {
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.price-range-bar-fill {
+    height: 100%;
+    background-color: #000000;
+    border-radius: 5px;
+}
+.new-releases-wrapper .offcanvas-body .rupees{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.new-releases-wrapper .offcanvas-body .rupees .low{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(219, 219, 219);
+    justify-content: space-between;
+    width: 40%;
+    
+}
+.new-releases-wrapper .offcanvas-body .rupees .high{
+    display: flex;
+    border: 1px solid rgb(219, 219, 219);
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+h4{
+    font-size: 16px ;
+}

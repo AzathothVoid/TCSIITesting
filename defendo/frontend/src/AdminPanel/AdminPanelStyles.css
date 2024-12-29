@@ -1,0 +1,25 @@
+.admin-panel-wrapper .row .admin-sider-bar{
+  background-color: #303030;
+  color: #fff;
+}
+.admin-panel-wrapper .row .admin-sider-bar ul li {
+  list-style-type: none;
+  border-bottom: 1px solid #a3a3a3;
+  text-align: center;
+}
+.admin-panel-wrapper .row .admin-sider-bar ul li a {
+  text-decoration: none;
+  color: #fff;
+  
+}
+.admin-panel-wrapper .row .right-column{
+  display: flex;
+  align-items: flex-start;
+}
+.admin-panel-wrapper .row .right-column .form{
+  align-items: center;
+  justify-content: center;
+}
+.admin-panel-wrapper .row .right-column .signout button{
+  border-radius: 10px;
+}

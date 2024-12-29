@@ -1,0 +1,66 @@
+.carousel-inner .carousel-item .overlay{
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.carousel-wrapper .carousel-inner img {
+  position: relative;
+  height: 90vh;
+  transition: 1s;
+  animation-name: ease-in;
+}
+
+.carousel-wrapper .carousel-inner .btn {
+  border: none;
+  border-radius: 0;
+  transition: 1s;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: .2em;
+  text-align: center;
+  padding: 14px 28px;
+
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 2s ease-in-out;
+}
+
+.loaded {
+  opacity: 1;
+}
+
+
+
+/* ****************************media-queries************************************/ 
+@media (min-width: 100px) and (max-width: 574.98px) {
+  .carousel-wrapper .carousel-item .carousel-caption .btn{
+    padding: 12px !important;
+    font-size: 10px !important;
+  }
+
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+ .carousel-wrapper .carousel-inner .carousel-caption a{
+  padding: 6px !important;
+ }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 767.98px) { }
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 991.98px) { }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1199.98px) { }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1399.98px) { }

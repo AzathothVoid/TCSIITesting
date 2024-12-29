@@ -1,0 +1,129 @@
+.footer-wrapper {
+    background-color: #191817;
+
+}
+
+.footer-wrapper .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-wrapper .row ul {
+    padding: 0;
+    display: block;
+}
+
+.footer-wrapper .row ul li {
+    list-style-type: none;
+    padding: 4px 0;
+}
+
+.footer-wrapper .row ul li a {
+    line-height: 1.5;
+    font-family: Varela, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+}
+
+.footer-wrapper .row p {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: .2em;
+}
+.footer-wrapper .row p.p-text {
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: .2em;
+}
+.footer-wrapper .row p.copyright {
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: .2em;
+}
+.footer-wrapper .row input{
+    color: #fff;
+    letter-spacing: .1em;
+    background-color: #272727;
+    border-radius:0;
+    border: 1px solid #fff;
+}
+.footer-wrapper .row input::placeholder{
+    padding: 2px;
+    color: #fff;
+    letter-spacing: .2em;
+    background-color: #272727;
+    font-size: 12px;
+}
+.footer-wrapper .row a.btn{
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: .2em;
+    background-color: #272727;
+    border-radius:0;
+}
+.footer-wrapper .row .payments{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer-wrapper .row .payments img{
+    width: 35px;
+}
+
+/*****************media quiery*************************/
+@media (max-width: 599.98px) {
+    .footer-wrapper{
+        padding: 0 !important;
+    }
+    .footer-wrapper .row{
+        padding: 20px 18px !important;
+    }
+    .row input{
+        width: 100% !important;
+        margin: 0;
+    }
+    .copyright-row{
+        padding:10px 0 !important;
+    }
+    .row .copyright{
+        text-align: center;
+        border-bottom: .5px solid #555555;
+        padding-bottom: 60px;
+    }
+    .row .payments{
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+    }
+    .footer-wrapper .row input::placeholder{
+        padding: 2px;
+        color: #fff;
+        letter-spacing: .2em;
+        background-color: #272727;
+        font-size: 12px;
+    }
+    .footer-wrapper .display{
+        display: block !important;
+        align-items: center;
+        justify-content: space-between;
+        margin: 26px 0;
+    }
+    .footer-wrapper .display{
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+        margin: 26px 0;
+    }
+    .footer-wrapper .comapny{
+        display: none !important;
+    }
+    .footer-wrapper .shop{
+        display: none !important;
+    }
+
+}

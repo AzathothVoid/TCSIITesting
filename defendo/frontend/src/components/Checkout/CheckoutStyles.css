@@ -1,0 +1,57 @@
+.row{
+    display: flex;
+    align-items: normal;
+}
+.error-message{
+    color: red;
+}
+
+.checkout-btn{
+    background-color: black !important;
+    border: none;
+    color: #ffffff !important;
+}
+.parent{
+    display:flex ;
+    align-items: center;
+}
+.badge{
+    font-size: 0.6em!important;
+}
+.h-field{
+    height:  0.5em!important;
+}
+
+/********************************************/
+@media (max-width: 414.98px) {
+    #cashondelivery{
+        margin-left: 20px !important;
+    }
+    #terms{
+        padding: 0 22px !important;
+    }
+}
+@media (max-width: 575.98px) {
+    .checkout-btn{
+        background-color: rgb(71, 71, 71);
+        color: #fff;
+        width: 90% !important;
+        padding: 6px !important;
+        font-size: smaller !important;
+        margin: 24px 0 !important;
+
+    }
+    .form-check{
+        padding: 0 !important;
+        display:flex !important;
+        align-items:center !important ;
+     
+    }
+    .form-check input{
+        margin-right: 12px !important;
+        width: 1em !important;
+    }
+    .my-3{
+        margin: 10% !important;
+    }
+}  
